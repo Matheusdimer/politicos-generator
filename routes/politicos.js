@@ -27,7 +27,7 @@ router.post('/:propriedade', (req, res) => {
         service.addProperty(propriedade, valor);
         res.sendStatus(200);
     } catch (err) {
-        res.status(err.status).send(new ErrorResponse(400, err.message));
+        res.status(err.status).send(new ErrorResponse(err.status, err.message));
     }
 })
 
