@@ -3,6 +3,8 @@
 Gerador de políticos de âmbito nacional para avaliação de Programação para Web.
 Não leve isso a sério.
 
+URL da API: [https://politicos-generator.herokuapp.com/api/politicos](https://politicos-generator.herokuapp.com/api/politicos)
+
 ## Rotas
 `GET /api/politicos?limite=[number]`
 
